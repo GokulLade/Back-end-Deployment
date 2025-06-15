@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*") // Allows requests from any frontend (like React)
+@CrossOrigin(origins = "https://front-end-deployment-ten.vercel.app") // safer in production
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
